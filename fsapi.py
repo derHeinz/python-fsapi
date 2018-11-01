@@ -2,11 +2,11 @@
 Support for interaction with Frontier Silicon Devices
 For example internet radios from: Medion, Hama, Auna, ...
 """
+
 import requests
 import logging
 import traceback
 from lxml import objectify
-
 
 class FSAPI(object):
 
